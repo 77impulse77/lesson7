@@ -14,7 +14,7 @@ public class Lesson7 {
     public static void main(String[] args) {
         Cat cat = new Cat(  "Луна", 1);
         Cat secondCat = new Cat("Меркурий", 2);
-        Cat[] cats = {new Cat("черная", 6), new Cat("серая", 8), new Cat("белая", 5), new Cat("рыжая", 2)};
+        Cat[] cats = {new Cat("черная", 6), new Cat("серая", 8), new Cat("белая", 15), new Cat("рыжая", 2)};
         Plate plate = new Plate(20);
 
 
