@@ -33,3 +33,4 @@ public class Lesson7 {
         plate.showInfo();
     }
 }
+// круто
