@@ -5,20 +5,16 @@ public class Plate {
         this.food = food;
     }
 
-    public boolean decreaseFood(int appetite) {
-        if (appetite > food){
-            if (!countFood){
-                System.out.println("Не хватает еды");
-                countFood = true;
-            }
-            return false;
-        }
-        else {
-            food -= appetite;
-            return true;
-        }
+    public void decreaseFood(int appetite) {
+               food -= appetite;
+
     }
-    public boolean countFood = false;
+
+    public int getFood() {
+        return food;
+    }
+
+
 
     public void showInfo() {
         System.out.println("plate: " + food);

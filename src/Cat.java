@@ -11,7 +11,11 @@ public class Cat {
     }
 
     public void eatFrom(Plate plate) {
-        hungry |= plate.decreaseFood(appetite);
+
+        if (!hungry&&plate.getFood() >= appetite) {
+           hungry = true;
+           plate.decreaseFood(appetite);
+        }
 
     }
     public void showInfo() {
